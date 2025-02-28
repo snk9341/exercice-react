@@ -1,0 +1,407 @@
+div {
+    margin: 0 auto;
+   }
+
+.newList {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+    color: rgb(252 253 255);
+}
+
+button {
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1;
+    border: solid 3px black;
+    border-radius: 50vw;
+}
+
+li {
+    background-image: linear-gradient(rgb(90, 90, 190, 0.0), rgb(90, 90, 200, 0.75), rgb(90, 90, 190, 0));
+    list-style-type: none;
+    height: 10vw;
+    align-items: center;
+    display: flex;
+    gap: 2vw;
+
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+.carPicture {
+    display: flex;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.carDescription {
+    align-self: flex-end;
+    padding: 0px;
+    margin: 0px;
+    width: 60%;
+
+    text-align: start;
+}
+
+.listLibrary {
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.descCarInLibrary {
+    margin-bottom: 5vw;
+    width: 8%;
+    text-align: center;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+.descCarInLibrary:hover {
+    transform: scale(1.05);
+}
+
+.zoom {
+    width: 85vw;        
+    position: fixed;
+    border-radius: 5vw;
+    height: 38vw;
+    top: 6vw;
+    left: 7vw;
+}
+
+ div.zoom img {
+     height: inherit;
+     width: inherit;
+     border: none;
+     border-radius: inherit;
+ }
+
+.background {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    top: 0%;
+    left: 0%;
+}
+
+.zoomCarName {
+    padding: 0px;
+    position: absolute;
+    top: 1vw;
+    left: 3vw;
+    color: ghostwhite;
+    font-size: 5vw;
+    width: auto;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
+    font-family: "Lilita One", serif;
+}
+
+.zoomTypeOfCar {
+    padding: 0px;
+    position: absolute;
+    top: 7vw;
+    left: 3vw;
+    color: whitesmoke;
+    font-size: 3vw;
+    width: auto;
+    text-shadow: 0px 1px 1px rgb(0 0 0 / 60%);
+}
+
+.zoomCarDesc {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2vw;
+    margin: 0px;
+    padding: 2vw;
+    width: 35vw;
+    max-height: 17vw;
+    position: absolute;
+    top: 19vw;
+    left: 44vw;
+    color: ghostwhite;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 30%);
+    font-size: 2vw;
+    font-family: "Jost", serif;
+}
+
+.zoomExit {
+    position: absolute;
+    top: 1vw;
+    left: 78vw;
+    border-radius: 2vw;
+    width: 5vw;
+    aspect-ratio: 1;
+    border: none;
+    background-color: transparent;
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+.buttonAddLibrary {
+    cursor: pointer;
+    font-size: 3vw;
+    width: 4vw;
+    border-radius: 2vw;
+    border: none;
+    background-color: transparent;
+    aspect-ratio: 1;
+    margin-right: 7vw;
+}
+
+.buttonTakeOFLibrary {
+    font-size: 3vw;
+    width: 4vw;
+    border-radius: 2vw;
+    border: none;
+    background-color: transparent;
+    aspect-ratio: 1;
+    margin-right: 7vw;
+}
+
+.nameCar {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    font-family: "Roboto", serif;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding: 0;
+}
+
+.typeOfTheCar {
+    font-weight: bold;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
+    font-size: 1em;
+    color: rgb(149 149 149);
+}
+
+.library {
+    margin-left: 2vw;
+    margin-top: 1vw;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.divButtonAddCar {
+    text-align: center;
+}
+
+.buttonAddCar {
+    font-size: 95%;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    border: none;
+    background-color: black;
+}
+
+.buttonAddCarToLibrary {
+    width: 24%;
+    display: flex;
+    align-items: center;
+}
+
+.centralized {
+    width: 50%;
+}
+
+.buttonUpAndDown {
+    width: 50%;
+}
+
+.buttonUp {
+    cursor: pointer;
+    font-size: 2vw;
+    width: 3vw;
+    border-radius: 21vw;
+    border: none;
+    background-color: transparent;
+    aspect-ratio: 1;
+}
+
+.buttonDown {
+    cursor: pointer;
+    font-size: 2vw;
+    width: 3vw;
+    border-radius: 21vw;
+    border: none;
+    aspect-ratio: 1;
+    background-color: transparent;
+}
+
+@media (orientation: portrait) {
+    li {
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    .carPicture {
+        padding-left: 2vw;
+        width: 20vw;
+    }
+
+    .carDescription {
+        align-self: flex-end;
+        padding: 0px;
+        margin-left: 2vw;
+        width: 80%;
+    
+        text-align: start;
+    }
+
+    .nameCar {
+        font-size: 6vw;
+    }
+
+    .typeOfTheCar {
+        font-size: 4vw;
+        margin-bottom: -2vw;
+    }
+
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding: 0;
+    }
+
+    .buttonAddCar {
+        font-size: 95%;
+        border-radius: 4vw;
+        margin: 1vw;
+        padding: 2vw;
+        margin-top: 4vw;
+    }
+
+    .listLibrary {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .descCarInLibrary {
+        width: 24vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .library {
+        font-size: 8vw;
+        margin: 10vw 5vw 9vw;
+    }
+
+    .buttonTakeOFLibrary {
+        font-size: 7vw;
+        padding: 0;
+        width: 10vw;
+        border-radius: 5vw;
+        background-image: linear-gradient(rgb(90, 90, 200, 0.05), rgb(90, 90, 200, 0.5), rgb(90, 90, 200, 0.05));
+    }
+
+    .buttonAddLibrary {
+        font-size: 7vw;
+        padding: 0;
+        width: 10vw;
+        border-radius: 5vw;
+        background-image: linear-gradient(rgb(90, 90, 200, 0.05), rgb(90, 90, 200, 0.5), rgb(90, 90, 200, 0.05));
+    }
+
+    .libraryName {
+        font-size: 5vw;
+    }
+
+    .background {
+        position: fixed;
+        width: 100vw;
+        height: 100%;
+    }
+
+    .zoom {
+        width: 100vw;
+        top: 100%;
+        height: fit-content;
+        position: sticky;
+    }
+
+    .zoomCarName {
+        font-size: 10vw;
+        top: 15vw;
+        text-shadow: 2px 2px 2px rgb(0 0 0 / 100%);
+    }
+
+    .zoomTypeOfCar {
+        font-size: 5vw;
+        top: 25vw;
+        text-shadow: 2px 2px 2px rgb(0 0 0 / 100%);
+    }
+
+    .zoomCarDesc {
+        font-size: 5vw;
+        width: 65vw;
+        top: 50vw;
+        left: 28vw;
+        text-shadow: 2px 2px 2px rgb(0 0 0 / 100%);
+        max-height: none;
+    }
+
+    .zoomExit {
+        left: 50vw;
+        top: 6vw;
+        padding: 0;
+        width: 9vw;
+        background-color: white;
+        border: none;
+        border-radius: 5vw;
+    }
+
+    .buttonUp {
+        font-size: 5vw;
+        padding: 0;
+        width: 8vw;
+        border-radius: 5vw;
+        background-color: transparent;
+    }
+
+    .buttonDown {
+        font-size: 5vw;
+        padding: 0;
+        width: 8vw;
+        border-radius: 5vw;
+        background-color: transparent;
+
+    }
+}
+

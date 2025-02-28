@@ -1,0 +1,50 @@
+.buttonNewList {
+    font-size: 50px;
+    min-width: 75px;
+    min-height: 75px;
+    background-color: #d3d2d2;
+    border: solid #d3d2d2;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nameCar {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 125px;
+    text-shadow: grey -3px 5px 10;
+}
+
+.carDescription {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.carInfo {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.typeOfTheCar {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    color: white;
+}
